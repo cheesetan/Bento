@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Good night,',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'a77aaa2f05f6110fbb15cfd2ec62951a', // Write here your API Key
@@ -53,78 +53,78 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Youtube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '2',
+			name: 'Spotify',
+			icon: 'music',
+			link: 'https://open.spotify.com',
+		},
+		{
+			id: '3',
 			name: 'Mail',
 			icon: 'mail',
 			link: 'https://mail.google.com/mail/u/1/#inbox',
 		},
 		{
-			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
-		},
-		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Students Blog',
+			icon: 'newspaper',
+			link: 'http://studentsblog.sst.edu.sg',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Classroom',
+			icon: 'highlighter',
+			link: 'https://classroom.google.com/u/1/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Docs',
+			icon: 'text',
+			link: 'https://docs.google.com/document/u/1/?tgif=d',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			name: 'Slides',
+			icon: 'wallpaper',
+			link: 'https://docs.google.com/presentation/u/1/?tgif=c',
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'Sheets',
+			icon: 'table',
+			link: 'https://docs.google.com/spreadsheets/u/1/?tgif=d/',
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'Forms',
+			icon: 'form-input',
+			link: 'https://docs.google.com/forms/u/1/?tgif=d',
 		},
 		{
 			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			name: 'SLS',
+			icon: 'graduation-cap',
+			link: 'https://vle.learning.moe.edu.sg/login',
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'Drive',
+			icon: 'hard-drive',
+			link: 'https://drive.google.com/drive/u/1/my-drive',
 		},
 		{
 			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'Peardeck',
+			icon: 'citrus',
+			link: 'https://app.peardeck.com/join',
 		},
 	],
 
