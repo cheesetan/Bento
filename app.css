@@ -24,6 +24,11 @@
   --accent: #57a0d9; /* Hover color */
   --background: #f5f5f5; /* Background color */
   --cards: #e4e6e6; /* Cards color */
+  
+   --searchBoxColor:rgba(228, 230, 230, 0.007);
+
+  --imgbg: url(/img/wal.jpg);
+  --imgGoogle: url('../icons/google-iconWhite.png');
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
@@ -42,6 +47,10 @@
   /* Fonts Color */
   --fg: #d8dee9; /* Foreground color */
   --sfg: #2c292e; /* Secondary Foreground color */
+  
+  --searchBoxColor:#2f2f3034;
+  --imgcol: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  --imgGoogle: url('../icons/google-iconDark.png');
 
   /* Image background  */
   --imgcol: linear-gradient(
