@@ -119,7 +119,6 @@ body {
     padding-left: 50px;
     font-size: 14px;
     position:fixed;
-    bottom:50px;
     left: 50%; /* center on x direction */
     transform:translateX(-50%);
     width:60vw;
