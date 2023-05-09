@@ -28,7 +28,7 @@
    --searchBoxColor:rgba(228, 230, 230, 0.007);
 
   --imgbg: url(/img/wal.jpg);
-  --imgGoogle: url('/assets/google-iconWhite.png');
+  --imgGoogle: url('assets/google-iconWhite.png');
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
@@ -50,7 +50,7 @@
   
   --searchBoxColor:#2f2f3034;
   --imgcol: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  --imgGoogle: url('/assets/google-iconDark.png');
+  --imgGoogle: url('assets/google-iconDark.png');
 
   /* Image background  */
   --imgcol: linear-gradient(
