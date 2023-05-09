@@ -103,6 +103,11 @@ body {
 
 #phpaction {
     display: flex;
+  
+    &:focus,&:active {
+        outline: none;
+        border-color: var(--accent); 
+    }
 }
 
 #phpaction #searchtxt {
@@ -120,7 +125,8 @@ body {
     color: var(--fg);
     padding-left: 50px;
     font-size: 14px;
-    &:focus, &:active {
+  
+    &:focus,&:active {
         outline: none;
         border-color: var(--accent); 
     }
