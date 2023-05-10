@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Good night,',
 
 	// Layout
-	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'a77aaa2f05f6110fbb15cfd2ec62951a', // Write here your API Key
@@ -139,20 +139,44 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Classroom',
+					link: 'https://classroom.google.com/u/1/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Mail',
+					link: 'https://mail.google.com/mail/u/1/#inbox',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Students Blog',
+					link: 'http://studentsblog.sst.edu.sg',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Docs',
+					link: 'https://docs.google.com/document/u/1/?tgif=d',
+				},
+				{
+					name: 'Slides',
+					link: 'https://docs.google.com/presentation/u/1/?tgif=c',
+				},
+				{
+					name: 'Sheets',
+					link: 'https://docs.google.com/spreadsheets/u/1/?tgif=d/',
+				},
+				{
+					name: 'Forms',
+					link: 'https://docs.google.com/forms/u/1/?tgif=d',
+				},
+				{
+					name: 'SLS',
+					link: 'https://vle.learning.moe.edu.sg/login',
+				},
+				{
+					name: 'Drive',
+					link: 'https://drive.google.com/drive/u/1/my-drive',
+				},
+				{
+					name: 'Peardeck',
+					link: 'https://app.peardeck.com/join',
 				},
 			],
 		},
